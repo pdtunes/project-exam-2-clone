@@ -63,7 +63,9 @@ export default function LoginPage() {
                 <FormError>{errors.password.message}</FormError>
               )}
             </Form.Group>
-            <button>{submitting ? "Sending" : "Submit"}</button>
+            <button className={styles.button}>
+              {submitting ? "Sending" : "Submit"}
+            </button>
           </fieldset>
         </Form>
       </Container>
