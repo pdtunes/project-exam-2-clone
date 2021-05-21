@@ -1,0 +1,20 @@
+.formwrap {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+h3 {
+  text-align: center;
+}
+
+.form {
+  width: 600px;
+}
+
+@media (max-width: 990px) {
+  .form {
+    max-width: 300px;
+  }
+}

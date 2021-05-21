@@ -1,0 +1,6 @@
+export const BASE_URL = process.env.REACT_APP_BASE_URL;
+export const HOTELS_ENDPOINT = process.env.REACT_APP_HOTELS_ENDPOINT;
+export const GUESTHOUSES_ENDPOINT = process.env.REACT_APP_GUESTHOUSES_ENDPOINT;
+export const BAB_ENDPOINT = process.env.REACT_APP_BAB_ENDPOINT;
+export const BOOKINGS_ENDPOINT = process.env.REACT_APP_BOOKINGS_ENDPOINT;
+export const CONTACTS_ENDPOINT = process.env.REACT_APP_CONTACTS_ENDPOINT;

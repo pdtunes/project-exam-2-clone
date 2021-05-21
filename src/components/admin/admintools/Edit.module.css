@@ -1,0 +1,27 @@
+.wrapper {
+  margin-top: 40px;
+}
+
+.button {
+  background-color: #05c5ff;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 3px 5px;
+  text-decoration: none;
+}
+
+.delbutton {
+  background-color: #ff0505;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 3px 5px;
+  text-decoration: none;
+}

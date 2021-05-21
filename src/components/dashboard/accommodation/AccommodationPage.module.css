@@ -1,0 +1,50 @@
+.placescard {
+  text-align: center;
+  max-width: 200px;
+  min-width: 200;
+  margin: 10px;
+}
+
+.header {
+  text-align: center;
+}
+.deckwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button {
+  background-color: #05c5ff;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 3px 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #ffffff;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width: 980px) {
+  .placescard {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 680px) {
+  .deckwrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .placescard {
+    max-width: 100%;
+  }
+}

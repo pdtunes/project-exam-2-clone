@@ -1,0 +1,96 @@
+.placescard {
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px;
+  font-size: 23px;
+}
+
+.placescard img {
+  max-width: 180px;
+}
+.placesContainer {
+  margin-top: 10px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.searchBar {
+  min-width: 350px;
+}
+.header {
+  text-align: center;
+}
+@media (max-width: 880px) {
+  .placescard {
+    max-width: 100px;
+  }
+}
+.placescard {
+  text-align: center;
+  max-width: 200px;
+  min-width: 200;
+  margin: 10px;
+}
+
+.deckwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button {
+  background-color: #05c5ff;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 3px 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #ffffff;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width: 980px) {
+  .placescard {
+    max-width: 100px;
+  }
+  .placescard {
+    text-align: center;
+    max-width: 200px;
+    min-width: 200;
+    margin: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 680px) {
+  .deckwrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .placescard {
+    max-width: 100px;
+  }
+  .cardtitle {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    font-size: 15px;
+  }
+
+  .box {
+    padding: 3px;
+  }
+}

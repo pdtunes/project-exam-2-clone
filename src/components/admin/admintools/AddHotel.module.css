@@ -1,0 +1,30 @@
+.formwrap {
+  margin: 30px;
+}
+
+.button {
+  background-color: #05c5ff;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  font-size: 15px;
+  padding: 4px 40px;
+  text-decoration: none;
+  border: none;
+}
+.buttonWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #83e2ff;
+}
+.button:active {
+  background-color: #004b61;
+  color: white;
+  position: relative;
+  top: 1px;
+}

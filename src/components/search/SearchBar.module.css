@@ -1,0 +1,9 @@
+.searchbar {
+  margin: 40px;
+  width: 400px;
+}
+
+.searchwrapper {
+  display: flex;
+  justify-content: center;
+}

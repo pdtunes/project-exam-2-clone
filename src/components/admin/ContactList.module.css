@@ -1,0 +1,27 @@
+@media (min-width: 1000px) {
+  .tdbox {
+    width: 120px;
+  }
+
+  .tdboxmail {
+    width: 220px;
+  }
+  .tdboxmessage {
+    width: 200px;
+  }
+}
+
+@media (max-width: 990px) {
+  .contactswrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+  }
+  .tdbox {
+    width: 100%;
+  }
+  .tdboxmail {
+    width: 100%;
+  }
+}

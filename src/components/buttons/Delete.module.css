@@ -1,0 +1,22 @@
+.delbutton {
+  background-color: #7e0000;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 15px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: none;
+}
+
+.delbutton:hover {
+  background-color: #d30000;
+}
+.delbutton:active {
+  background-color: #6c0000;
+  color: white;
+  position: relative;
+  top: 1px;
+}

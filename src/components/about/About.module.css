@@ -1,0 +1,13 @@
+.confirmationwrap {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.containerwrap {
+  display: flex;
+  justify-content: center;
+
+  flex: 1;
+}

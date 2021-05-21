@@ -1,0 +1,50 @@
+.listwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  margin-top: 30px;
+}
+
+.cardstyle {
+  justify-content: center;
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 00px;
+  background: #ffffff;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  margin-top: 30px;
+}
+.header {
+  text-align: center;
+}
+
+.button {
+  background-color: #05c5ff;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  font-size: 15px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: none;
+}
+
+.button:hover {
+  background-color: #83e2ff;
+}
+.button:active {
+  background-color: #004b61;
+  color: white;
+  position: relative;
+  top: 1px;
+}
+
+.title {
+  color: #009bcb;
+}
