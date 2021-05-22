@@ -1,7 +1,8 @@
 import BookingsList from "./BookingList";
 import ContactsList from "./ContactList";
 import styles from "./Admin.module.css";
-import { Container, Dropdown, Link } from "react-bootstrap";
+import { Container, Dropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function Admin() {
   return (
