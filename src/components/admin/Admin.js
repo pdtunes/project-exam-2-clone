@@ -18,8 +18,12 @@ export default function Admin() {
               <Dropdown.Item>
                 <Link to="/addhotels">Hotel</Link>
               </Dropdown.Item>
-              <Dropdown.Item href="/addghs">Guesthouse</Dropdown.Item>
-              <Dropdown.Item href="/addbabs">Bed and breakfast</Dropdown.Item>
+              <Dropdown.Item>
+                <Link to="/addghs">Guesthouse</Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link to="/addbabs">Bed & Breakfast</Link>
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </div>
