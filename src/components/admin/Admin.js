@@ -15,7 +15,7 @@ export default function Admin() {
             </Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item>
-                <Link to="addhotels">Hotel</Link>
+                <Link to="/addhotels">Hotel</Link>
               </Dropdown.Item>
               <Dropdown.Item href="/addghs">Guesthouse</Dropdown.Item>
               <Dropdown.Item href="/addbabs">Bed and breakfast</Dropdown.Item>
