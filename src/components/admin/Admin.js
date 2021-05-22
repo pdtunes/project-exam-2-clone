@@ -1,7 +1,7 @@
 import BookingsList from "./BookingList";
 import ContactsList from "./ContactList";
 import styles from "./Admin.module.css";
-import { Container, Dropdown } from "react-bootstrap";
+import { Container, Dropdown, Link } from "react-bootstrap";
 
 export default function Admin() {
   return (
@@ -14,7 +14,9 @@ export default function Admin() {
               Add new
             </Dropdown.Toggle>
             <Dropdown.Menu>
-              <Dropdown.Item href="/addhotels">Hotel</Dropdown.Item>
+              <Dropdown.Item>
+                <Link to="addhotels">Hotel</Link>
+              </Dropdown.Item>
               <Dropdown.Item href="/addghs">Guesthouse</Dropdown.Item>
               <Dropdown.Item href="/addbabs">Bed and breakfast</Dropdown.Item>
             </Dropdown.Menu>
